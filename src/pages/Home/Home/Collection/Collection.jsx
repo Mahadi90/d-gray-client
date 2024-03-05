@@ -4,7 +4,7 @@ import img2 from "../../../../assets/images/new.jpg";
 
 const Collection = () => {
   return (
-    <div className="my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-500">
+    <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-500">
       <div className=" glass shadow-md">
         <figure>
           <img className="w-full h-72" src={img1} alt="car!" />

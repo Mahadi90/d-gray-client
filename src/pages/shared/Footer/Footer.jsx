@@ -1,10 +1,10 @@
 import React from 'react';
-
+import img from '../../../assets/images/logo2.jpeg'
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-gray-700 text-white">
         <aside>
-         <img className='w-12 h-12' src='../../../../src/assets/images/logo2.jpeg' alt="" />
+         <img className='w-12 h-12' src={img} alt="" />
           <p>D Gray<br/>Buy your own clothes</p>
         </aside> 
         <nav>
