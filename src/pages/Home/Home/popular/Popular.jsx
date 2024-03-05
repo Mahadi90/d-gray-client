@@ -14,7 +14,7 @@ useEffect(() => {
 },[])
 
 const popularItems = products.filter(product => product.title === 'Popular');
-console.log(popularItems)
+// console.log(popularItems)
 
 // console.log(products.products)
 

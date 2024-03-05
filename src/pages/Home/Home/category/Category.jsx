@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
 
 
 const Category = () => {
+
+
     return (
         <div className='my-10 w-[90%] mx-auto'>
             <h2 className='text-3xl font-bold text-center'>Shop by category</h2>
@@ -38,21 +40,21 @@ const Category = () => {
        <h2 className='text-white font-bold text-xl text-center bg-gray-600'>Panjabi</h2>
         <img className='mx-auto h-56' src={img1} alt="" />
         <div className='text-center my-2'>
-        <Link className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
+        <Link to='/shop' className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
         </div>
        </SwiperSlide>
        <SwiperSlide className='mx-auto'> 
        <h2 className='text-white font-bold text-xl text-center bg-gray-600'>Polo Shirt</h2>
         <img className='mx-auto h-56' src={img2} alt="" />
         <div className='text-center my-2'>
-        <Link className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
+        <Link to='/shop' className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
         </div>
        </SwiperSlide>
        <SwiperSlide  className='mx-auto'>
        <h2 className='text-white font-bold text-xl text-center bg-gray-600'>T Shirt</h2>
         <img className='mx-auto h-56' src={img3} alt="" />
         <div className='text-center my-2'>
-        <Link className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
+        <Link to='/shop' className='btn bg-black text-white font-bold hover:text-black'>Show More</Link>
         </div>
        </SwiperSlide>
       </Swiper>

@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import img from "../../../../assets/images/banner.jpeg";
 import img2 from "../../../../assets/images/banner2.jpeg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -24,6 +25,11 @@ const Banner = () => {
         <a href="#item2" className="btn btn-xs">
           2
         </a>
+      </div>
+      <div className="w-[90%] mx-auto flex gap-2">
+       <div className="border p-2"><Link to='/shop'>Panjabi</Link></div>
+       <div className="border p-2"><Link to='/shop'>Polo Shirt</Link></div>
+       <div className="border p-2"><Link to='/shop'>T Shirt</Link></div>
       </div>
     </>
   );
