@@ -19,8 +19,8 @@ console.log(popularItems)
 // console.log(products.products)
 
     return (
-        <div className='my-5 lg:my-16'>
-            <h2 className='text-5xl font-bold text-center'>Best Selling</h2>
+        <div className='my-5 lg:my-10 w-[90%] mx-auto'>
+            <h2 className='text-3xl font-bold text-center'>Best Selling</h2>
             <Swiper
         // slidesPerView={4}
         breakpoints={{
