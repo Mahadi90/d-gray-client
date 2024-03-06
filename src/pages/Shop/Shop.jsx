@@ -22,7 +22,7 @@ const Shop = () => {
   
 
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="w-[95%] mx-auto">
       <Tabs>
         <TabList>
           <Tab>Panjabi</Tab>
